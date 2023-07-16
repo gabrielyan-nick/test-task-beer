@@ -22,7 +22,6 @@ const BeerList = () => {
     setVisibleEnd,
     setDelCount,
   } = useStore();
-  // const [delCount, setDelCount] = useState(0);
 
   const delCard = () => {
     setVisibleBeers((beers) =>
